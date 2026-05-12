@@ -113,7 +113,8 @@ body {
 display: block;
   height:800px;
   width: auto;
-  margin-left:20px;
+  margin-left:40px;
+  margin-top: 40px;
     transform: translateX(-100px);
   opacity: 0;
 
@@ -129,4 +130,22 @@ display: block;
 
 .content {
   padding: 20px;
+}
+
+.container1 {
+  display: flex;
+  align-items: flex-start; /* keeps top aligned */
+  gap: 20px; /* space between image and text */
+}
+
+.top-bar a {
+  color:white;
+  text-decoration: none;
+      font-weight: bold;
+      padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.top-bar a:hover {
+  background: rgba(255,255,255,0.1);
 }

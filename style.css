@@ -116,8 +116,9 @@ body {
 margin: 40px;
   transform: translateX(-100px);
   opacity: 0;
+border-radius: 10px;
 
-  animation: slideIn 1s ease forwards;
+  animation: slideIn 3s ease forwards;
 }
 
 @keyframes slideIn {
@@ -125,6 +126,11 @@ margin: 40px;
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .content {
@@ -154,13 +160,23 @@ h1 {
   font-size:48px;
   letter-spacing: 3px;
 }
+h2 {
+  font-size:36px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size:30px;
+  font-style:italic;
+  color: gray;
+  letter-spacing: 1px;
+}
 
 P {
   font-size: 25px;
-  line-height: 1.6;
+  line-height: 1;
 }
 
-
-.maintext {
-  
+.maintext{
+  animation: fadeIn 1s ease-in;
 }

@@ -32,6 +32,21 @@ body {
   height: 250px;
 }
 
+.horizontal-3 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.horizontal-3 .box {
+  flex: 0 1 calc(30% - 50px);
+  width: calc(30% - 50px);
+  min-width: 240px;
+  height: 180px;
+}
+
 .box {
   position: relative;
   overflow: hidden;

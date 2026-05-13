@@ -187,6 +187,13 @@ h2 {
   letter-spacing: 2px;
 }
 
+.left-heading {
+  text-align: left;
+  width: 100%;
+  padding-left: 180px;
+  font-style: normal;
+}
+
 h3 {
   font-size: 30px;
   font-style: italic;
@@ -199,30 +206,19 @@ P {
   line-height: 1;
 }
 
-.maintext {
-  animation: fadeIn 0.5s ease-in;
-}
+.maintext { animation: fadeIn 0.5s ease-in; }
 
-.map1 {
-  background-image: url("images/map1.jpg");
-}
-
-.map2 {
-  background-image: url("images/map2.jpg");
-}
-
-.map3 {
-  background-image: url("images/map3.jpg");
-}
-
-.map4 {
-  background-image: url("images/map4.jpg");
-}
-
-.map5 {
-  background-image: url("images/map5.jpg");
-}
-
-.map6 {
-  background-image: url("images/map6.jpg");
+.map1 { background-image: url("images/map1.jpg"); }
+.map2 { background-image: url("images/map2.jpg"); }
+.map3 { background-image: url("images/map3.jpg"); }
+.map4 { background-image: url("images/map4.jpg"); }
+.map5 { background-image: url("images/map5.jpg"); }
+.map6 { background-image: url("images/map6.jpg"); }
+.map7 { background-image: url("images/map7.jpg"); }
+.map8 { background-image: url("images/map8.jpg"); }
+.map9 { background-image: url("images/map9.jpg"); }
+.map10 { background-image: url("images/map10.jpg"); }
+.misc { 
+  background-image: url("images/misc.jpg"); 
+width: 80%;
 }

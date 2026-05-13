@@ -201,6 +201,14 @@ h3 {
   letter-spacing: 1px;
 }
 
+.footer {
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #131313;
+  color: rgb(58, 58, 58);
+  font-style: italic;
+}
+
 P {
   font-size: 25px;
   line-height: 1;
@@ -218,7 +226,13 @@ P {
 .map8 { background-image: url("images/map8.jpg"); }
 .map9 { background-image: url("images/map9.jpg"); }
 .map10 { background-image: url("images/map10.jpg"); }
+
 .misc { 
   background-image: url("images/misc.jpg"); 
 width: 80%;
 }
+
+.misc1 { background-image: url("images/misc/misc1.jpg"); }
+.misc2 { background-image: url("images/misc/misc2.jpg"); }
+.misc3 { background-image: url("images/misc/misc3.jpg"); }
+.misc4 { background-image: url("images/misc/misc4.jpg"); }

@@ -1,3 +1,7 @@
+# https://bit.ly/kaff4ine
+
+
+
 ## HELLO READER
 
 this is quite literally just a regular static website I made with my limited html and css knowledge

@@ -276,6 +276,11 @@ P {
   grid-row: 1;
 }
 
+.duperscreen{
+  width: 40%;
+  height: auto;
+}
+
 .maintext {
   animation: fadeIn 0.5s ease-in;
   grid-column: 2;
@@ -332,6 +337,34 @@ width: 80%;
 .misc3 { background-image: url("images/misc/misc3.jpg"); }
 .misc4 { background-image: url("images/misc/misc4.jpg"); }
 
+.container-horizontal {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 35px;
+  float: none !important;
+  margin: 30px auto !important;
+  max-width: 100%;
+}
+
+.container-horizontal img {
+  flex: 1 1 calc(49% - 17.5px);
+  width: 100%;
+  max-width: calc(49% - 17.5px);
+  min-width: 280px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+  .container-horizontal img {
+    flex: 1 1 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+}
 a {
   text-decoration: none;
 }

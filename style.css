@@ -193,12 +193,13 @@ body {
 }
 
 .top-right-meta {
-  position: fixed;
+  position: absolute;
   top: 70px;
   right: 20px;
   text-align: right;
-  z-index: 1000;
+  z-index: 10;
   max-width: 480px;
+  will-change: transform;
 }
 
 .top-right-meta h2,
@@ -256,6 +257,14 @@ P {
   margin-top: 100px;
 }
 
+.left-video {
+  display: block;
+  clear: left;
+  margin: 20px 0 0 50px;
+  max-width: 900px;
+  width: calc(100% - 50px);
+}
+
 .img {
   position: relative;
   width: 900px;
@@ -277,6 +286,13 @@ P {
 
 .maintext h2 {
     text-align: left;
+}
+
+.underline:hover {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 4px;
 }
 
 .maintext p {
